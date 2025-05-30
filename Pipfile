@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "==2.0.30" # Pin to a specific version for stability
+colorama = "*"          # For colored CLI output (optional but nice)
+rich = "*"              # For richer CLI output (optional, but good for progress bars, tables etc)
+
+[dev-packages]
+pytest = "*"
+ipython = "*" # For interactive debugging
+
+[requires]
+python_version = "3.12" # Adjust to your Python 3.x version
